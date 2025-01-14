@@ -2,6 +2,12 @@
 
 Install as you would normally a Klipper Macro file.
 
+01/14/2025 v0.4.3
+Fixed UndefinedError for TMP variable in LOW_TEMP_CHECK when macro is called without paramaters. Issue was introduced in v0.3.5 commit 8cf8e9a.
+
+01/14/2025 v0.4.2
+Changed gcode macro name from 'm600cfg' to 'cfg_m600' because of naming convention change. Macro's not conforming to this convention cannot be registered in Klipper.
+
 04/30/2022 v0.4.1
 Corrected bugs with M125 and raising the zmin twice.
 
